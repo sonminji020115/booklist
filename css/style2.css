@@ -1,0 +1,482 @@
+@charset "utf-8";
+
+/* sytle2.css */
+
+
+/* 헤더 - 1 */
+#wrap{
+    width: 100%;
+    position: relative;
+}
+.head_top{
+    padding: 15px 0 15px 0;
+    background-color: #B19A83;
+}
+.h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+/* 헤더 - 2 */
+.h2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+    justify-content: center;
+}
+.h_logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 286px;
+    height: 33px;
+    background-size: 100% auto;
+    background-image: url(../img/head_logo.png);
+}
+.login_list ul{
+    display: flex;
+    justify-content: center;
+}
+.login_list li{
+    margin-top: 15px;
+    margin-right: 20px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.login_list a{
+    color: #947455;
+}
+.login_list li:last-child{
+    margin-right: 0;
+}
+.h2_search{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 275px;
+    position: relative;
+}
+.h2_search .h2_txt{
+    width: 200px;
+    height: 35px;
+    border: 2px solid #947455;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #947455;
+}
+.h2_search .h2_btn{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 25px;
+    text-indent: -9999px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/ico-search.png);
+}
+.h2_search .placeholder{
+    color: #9d9389;
+}
+
+/* 메인영역 - 1 */
+.main1 .mo{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+.main1 .pc{
+    display: none;
+}
+/* 메인영역 - 2 */
+.main2 .m2_img{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+/* 메인영역 - 3 */
+.main3_in{
+    margin: 20px 40px 20px 40px;
+    padding: 20px;
+    background-color: #EFEFEF;
+    border-radius: 20px;
+}
+.main3 li{
+    box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #957E68;
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 2.3em;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.main3_in .m3_txt{
+    text-align: center;
+    line-height: 2em;
+    color: #957E68;
+    font-size: 25px;
+}
+/* 메인영역 - 4 */
+.main4{
+    color: #957E68;
+    margin-top: 30px;
+    margin-bottom: 27px;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+/* 메인영역 - 5 */
+.main5{
+    text-align: center;
+    margin-top: 30px;
+}
+.main5 img{
+    margin-bottom: 20px;
+}
+.main5 ul{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.m5_text1{
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: #555555;
+    line-height: 1.3em;
+}
+.m5_text2{
+    margin-top: -10px;
+    color: #8d8d8d;
+}
+.m5_text3{
+    margin-top: 5px;
+    color: #616161;
+}
+.m5_text3 span{
+    color: #e70808;
+}
+.m5_text4{
+    color: #000;
+    font-weight: 800;
+}
+.m5_text5{
+    font-size: 15px;
+    color: #888888;
+}
+.m5_txt1{
+    text-align: center;
+    width: 100px;
+    font-weight: 400;
+    padding: 15px 0 15px 0;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #947455;
+}
+.m5_txt2{
+    text-align: center;
+    width: 100px;
+    font-weight: 400;
+    padding: 15px 0 15px 0;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #E3BA90;
+}
+.m5_txt3{
+    text-align: center;
+    width: 100px;
+    font-weight: 600;
+    padding: 15px 0 15px 0;
+    color: #947455;
+    border: 1px solid #947455;
+}
+.m5_txt1, .m5_txt2, .m5_txt3{
+    display: none;
+}
+/* 푸터영역 - 1 */
+.f1{
+    border-bottom: #555555;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.f1 ul{
+    display: flex;
+}
+.f1_txt{
+    display: flex;
+    justify-content: space-between;
+}
+.f1_txt .f1_txt1{
+    margin-left: -40px;
+    height: 20px;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    background-color: #947555;
+    border-radius: 10px;
+}
+.f1_txt2{
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #666666;
+    font-size: 20px;
+    font-weight: 900;
+}
+.f1_txt3{
+    color: #666666;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+/* 푸터영역 - 2 */
+.f2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.f2 img{
+    margin-bottom: 25px;
+}
+.f2 li{
+    color: #7A7A7A;
+    margin-bottom: 5px;
+}
+.f2 .f2_txt1{
+    margin-bottom: 15px;
+}
+.f2 .f2_txt2{
+    margin-bottom: 15px;
+}
+/* 390 시작 */
+@media screen and (min-width:390px) {
+/* 메인영역 - 3 */
+.m3_txt_title{
+    display: none;
+}
+/* 메인영역 - 5 */
+.m5_text5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+.m5_txt1, .m5_txt2, .m5_txt3{
+    display: none;
+}
+/* 푸터영역 */
+.f1 li{
+    display: none;
+}
+} /* 390 끝 */
+
+/* 768 시작 */
+@media screen and (min-width:768px) {
+/* 헤더 - 1 */
+.h1 br{
+    display: none;
+}
+.h1{
+    font-size: 20px;
+}
+/* 메인영역 - 1 */
+.main1 .mo{
+    display: none;
+}
+.main1 .pc{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+}
+/* 메인영역 - 2 */
+.main2 .m2_img{
+    margin-right: 20px;
+}
+/* 메인영역 - 3 */
+.main3_in{
+    margin: 20px 120px 20px 120px;
+}
+.main3 li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* 메인영역 - 5 */
+.main5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18px;
+    justify-content: center;
+}
+.main5 ul{
+    width: 45%;
+}
+.m5_text5{
+    width: 350px;
+}
+.m5_text5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+.m5_txt1, .m5_txt2, .m5_txt3{
+    display: none;
+}
+/* 푸터영역 - 1 */
+.f1 ul{
+    margin-left: 15px;
+}
+.f1 li{
+    margin-left: 10px;
+    color: #666666;
+    display: block;
+}
+.f1 a{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding-right: 10px;
+}
+.f1 a:last-child{
+    border: none;
+    padding: 0;
+}
+.f1_txt a{
+    align-self: center;
+    border: 0;
+}
+.f1_txt1{
+    margin-left: 10px;
+}
+.f1_txt2{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.f1{
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+} /* 768 끝 */
+
+/* 1920 시작 */
+@media screen and (min-width:1920px) {
+/* 헤더 - 1 */
+.h1{
+    font-size: 20px;
+}
+/* 헤더 - 2 */
+.h_logo{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.h2{
+    display: flex;
+    align-items: center;
+}
+.login_list{
+    margin-top: 20px;
+    margin-left: 340px
+}
+.login_list li{
+    margin-right: 30px;
+}
+.h2_search{
+    width: 400px;
+    position: relative;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.h2_search .h2_txt{
+    width: 330px;
+}
+.h2_search .h2_btn{
+    position: absolute;
+    right: 20px;
+}
+/* 메인영역 - 2 */
+.main2{
+    margin-bottom: 40px;
+}
+.main2 .m2_img{
+    margin-top: 40px;
+    margin-right: 400px;
+}
+/* 메인영역 - 3 */
+.main3_in{
+    border-radius: 7%;
+    margin: 20px 500px 50px 500px;
+    padding-top: 60px;
+    padding-left: 40px;
+    justify-content: center;
+}
+.main3 li{
+    font-size: 30px;
+    padding: 2px 70px 2px 70px;
+    margin-right: 30px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.m3_txt{
+    display: none;
+}
+/* 메인영역 - 5 */
+.main5{
+    margin-top: -10px;
+    display:block;
+}
+.main5 ul{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    margin-left: 27%;
+}
+.m5_txt1, .m5_txt2, .m5_txt3{
+    display: block;
+    margin-left: 20px;
+}
+.m5_text5{
+    width: 600px;
+}
+.m5_img1 img{
+    margin-top: 25px;
+    margin-right: 30px;
+}
+.m5_text1 br{
+    display: none;
+}
+/* 푸터영역 - 1 */
+.f1{
+    padding-top: 12px;
+    padding-bottom: 15px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.f1 ul{
+    font-size: 20px;
+    margin-left: 400px;
+}
+.f1_txt{
+    margin-right: 490px;
+    display: flex;
+}
+/* 푸터영역 - 2 */
+.f2{
+    display: flex;
+    justify-content: center;
+}
+.f2 li{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.f2 ul{
+    margin-right: 20px;
+}
+} /* 1920 끝 */
