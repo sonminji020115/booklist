@@ -284,7 +284,7 @@
     margin-bottom: 15px;
 }
 /* 390 시작 */
-@media screen and (min-width:390px) {
+@media screen and (min-width:425px) {
 /* 메인영역 - 2 */
 .main2{
     border: 0;
